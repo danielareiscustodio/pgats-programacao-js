@@ -1,0 +1,13 @@
+{
+    "name": "pgats-programacao-js",
+    "version": "1.0.0",
+    "description": "Prova Final",
+    "main": "src/trabalho.js",
+    "type": "module",
+    "scripts": {
+        "test": "mocha tests/trabalho-final.js"
+    },
+    "devDependencies": {
+        "mocha": "^9.2.2"
+    }
+}
