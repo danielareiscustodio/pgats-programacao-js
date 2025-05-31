@@ -1,6 +1,4 @@
-// src/trabalho.js
-
-// Função para gerar tags de identificação
+// Função para gerar as tags de identificação
 export const geradorDeTagsDeIdentificacao = (nome) => {
     return nome.toUpperCase();
   };
@@ -12,7 +10,7 @@ export const geradorDeTagsDeIdentificacao = (nome) => {
   
   // Função para calcular o consumo de ração
   export const calcularConsumoDeRacao = (nome, idade, peso) => {
-    // Exemplo de cálculo: 300 gramas para cada 10 kg
+    // Cálculo: 300 gramas para cada 10 kg
     return Math.round((peso / 10) * 3000);
   };
   
