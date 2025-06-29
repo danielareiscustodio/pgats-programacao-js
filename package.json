@@ -5,7 +5,7 @@
     "main": "src/trabalho.js",
     "type": "module",
     "scripts": {
-        "test": "mocha tests/trabalho-final.js"
+        "test": "mocha test/trabalho-final.js"
     },
     "devDependencies": {
         "mocha": "^9.2.2"

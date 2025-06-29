@@ -1,7 +1,7 @@
 # CI de Nivel 1 - Disparo manual a partir de 1 clique
 
 # nome do nosso 'pipeline'
-name: 'Execução Manual'
+name: "Execução Manual"
 
 # Regras de disparo (gatilhos ou triggers)
 # gatilho de execução manual = workflow_dispatch
@@ -32,5 +32,10 @@ jobs:
       - name: Instalando dependencias
         run: yarn
 
-      - name: Run JavaScript file
-        run: node trabalho.js
+      # instalacao do Playwright
+      - name: Instalando Playwright
+        run: yarn playwright install
+
+      # execuçao dos e2e
+      - name: Executando testes e2e
+        run: yarn run e2e
