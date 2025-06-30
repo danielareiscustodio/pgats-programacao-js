@@ -36,6 +36,12 @@ jobs:
       - name: Instalando Playwright
         run: yarn playwright install
 
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run tests
+        run: yarn test
+
       # execuçao dos e2e
       - name: Executando testes e2e
         run: mocha test/trabalho-final.js
