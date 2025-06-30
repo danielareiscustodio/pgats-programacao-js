@@ -5,9 +5,11 @@
     "main": "src/trabalho.js",
     "type": "module",
     "scripts": {
-        "test": "mocha test/trabalho-final.js"
+        "test": "mocha test/trabalho-final.js",
+        "playwright:install": "playwright install"
     },
     "devDependencies": {
-        "mocha": "^9.2.2"
+        "mocha": "^9.2.2",
+        "playwright": "^1.53.1"
     }
 }
