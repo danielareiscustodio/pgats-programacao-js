@@ -38,4 +38,4 @@ jobs:
 
       # execuçao dos e2e
       - name: Executando testes e2e
-        run: yarn run e2e
+        run: mocha test/trabalho-final.js
